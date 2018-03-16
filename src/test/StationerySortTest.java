@@ -1,13 +1,13 @@
 package test;
 
-import main.customComparators.StationeryNameComparator;
-import main.customComparators.StationeryPriceComparator;
-import main.stationaries.RecruitmentKit;
-import main.stationaries.drawingStationaries.Brush;
-import main.stationaries.drawingStationaries.Paint;
-import main.stationaries.officeStationaries.Puncher;
-import main.stationaries.officeStationaries.Stapler;
-import main.stationaries.writingStationaries.Pen;
+import main.customComparator.StationeryNameComparator;
+import main.customComparator.StationeryPriceComparator;
+import main.stationary.RecruitmentKit;
+import main.stationary.drawingStationary.Brush;
+import main.stationary.drawingStationary.Paint;
+import main.stationary.officeStationary.Puncher;
+import main.stationary.officeStationary.Stapler;
+import main.stationary.writingStationary.Pen;
 import org.junit.Before;
 import org.junit.Test;
 

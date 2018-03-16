@@ -1,4 +1,4 @@
-package main.stationaries;
+package main.stationary;
 
 import java.util.ArrayList;
 import java.util.List;

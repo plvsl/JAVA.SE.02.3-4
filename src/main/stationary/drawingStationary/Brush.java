@@ -1,4 +1,4 @@
-package main.stationaries.drawingStationaries;
+package main.stationary.drawingStationary;
 
 public class Brush extends StationeryForDrawing {
 
@@ -16,5 +16,9 @@ public class Brush extends StationeryForDrawing {
     @Override
     public String getName() {
         return name;
+    }
+    @Override
+    public String draw() {
+        return "drawing with brush";
     }
 }

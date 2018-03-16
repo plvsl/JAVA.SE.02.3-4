@@ -1,6 +1,6 @@
-package main.customComparators;
+package main.customComparator;
 
-import main.stationaries.Stationery;
+import main.stationary.Stationery;
 
 import java.util.Comparator;
 

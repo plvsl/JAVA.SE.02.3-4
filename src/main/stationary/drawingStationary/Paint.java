@@ -1,11 +1,11 @@
-package main.stationaries.writingStationaries;
+package main.stationary.drawingStationary;
 
-public class Pen extends StationeryForWriting {
+public  class Paint extends StationeryForDrawing {
 
     private double price;
     private String name;
 
-    public Pen(double price, String name){
+    public Paint(double price, String name){
         this.name = name;
         this.price = price;
     }
@@ -16,5 +16,9 @@ public class Pen extends StationeryForWriting {
     @Override
     public String getName() {
         return name;
+    }
+    @Override
+    public String draw() {
+        return "drawing with paint";
     }
 }

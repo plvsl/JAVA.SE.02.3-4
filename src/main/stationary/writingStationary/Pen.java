@@ -1,11 +1,11 @@
-package main.stationaries.officeStationaries;
+package main.stationary.writingStationary;
 
-public class Stapler extends OfficeStationary {
+public class Pen extends StationeryForWriting {
 
     private double price;
     private String name;
 
-    public Stapler(double price, String name){
+    public Pen(double price, String name){
         this.name = name;
         this.price = price;
     }
@@ -16,5 +16,10 @@ public class Stapler extends OfficeStationary {
     @Override
     public String getName() {
         return name;
+    }
+
+    @Override
+    public String write() {
+        return "writing with pen";
     }
 }

@@ -1,26 +1,15 @@
-package main.stationaries;
+package main.stationary;
 
-public class Stationery implements Comparable {
+public abstract class Stationery implements Comparable {
 
-    public double getPrice() {
-        return 0;
-    }
-
-    public String getName() {
-        return null;
-    }
+    public abstract double getPrice();
+    public abstract String getName();
 
     @Override
     public int compareTo(Object o) {
         double comparePrice = ((Stationery)o).getPrice();
         return ((int) ((this.getPrice() - comparePrice) * 100))
                 + this.getName().compareTo(((Stationery) o).getName()) * 100;
-    }
-
-    public static void main(String[] args) {
-        Stationery st = new Stationery();
-        Stationery st2 = new Stationery();
-        st.compareTo(st2);
     }
 
     @Override
